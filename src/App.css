@@ -1,0 +1,141 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgb(108, 117, 70);
+  padding: 20px;
+  color: #DFFF00(223, 255, 0);
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgb(237, 226, 226);
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  background-color: rgb(220, 214, 44);
+}
+
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+img{
+  
+    max-width: 20%;
+    height: auto;
+}
+#menu li {
+  margin-bottom: 10px;
+}
+#menu h3 {
+  color: yellow; 
+  font-size: 2rem;
+}
+#menu h2 {
+  color: #75810d; 
+  font-size: 4rem;
+}
+
+#reservations form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#reservations label {
+  margin-bottom: 8px;
+}
+
+#reservations input,
+#reservations textarea {
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+#reservations h2 {
+  color: #22092C; 
+  font-size: 4rem;
+}
+
+
+#contact p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+#contact h2 {
+  color: #22092C; 
+  font-size: 4rem;
+}
+
+#order-online {
+  background-color: rgb(179, 245, 191);
+  padding: 40px 20px;
+}
+
+#order-online form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#order-online label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#order-online input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+#order-online button {
+  background-color: #282c34;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#order-online button:hover {
+  background-color: #555;
+}
+#order-online h2 {
+  color: #073b65; 
+  font-size: 4rem;
+}
+
+#order-online p {
+  color: rgb(54, 4, 4); 
+  font-size: 2rem;
+}
+
+.cart-icon {
+  width: 200px;
+  height: 200px; 
+  margin-bottom: 20px;
+}
